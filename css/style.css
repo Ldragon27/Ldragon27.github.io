@@ -1,0 +1,31 @@
+body {
+    font-family: Halvetica, sans-serif;
+}
+
+header {
+    max-width: fit-content;
+}
+
+header img {
+    padding: 10px;
+}
+
+nav {
+    width: auto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#content h1 {
+    font-size: 20px;
+}
+
+#content img {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;    
+}
