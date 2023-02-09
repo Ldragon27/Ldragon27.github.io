@@ -3,6 +3,29 @@ body {
     margin: 0;
 }
 
+header{
+    overflow: hidden;
+}
+
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{   
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1200px;
+}
 
 /*************************/
 /*    Styling  Header    */
@@ -14,53 +37,62 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    margin-top: 0;
 }
 
 /******************/   
 /* Styling Banner */
 /******************/
 .hero-text{
-    position: absolute;
-    margin: 10px;
-    width: auto;
-    padding-left: 10px;
+    text-align: left;
+    height: 60px;
     color: white;
+}
+
+.name{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
 }
   
 /***************************/
 /* Styling Navigation Menu */
 /***************************/
 .menu{
-    overflow: hidden;
+    float: right;
+    width: auto;
+    height: 100%;
+    margin: none;
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
 .menu ul{
     text-align: center;
     float: right;
     margin: none;
-    padding-left: 1520px;
 }
 
 .menu li{
     display: inline-block;
     padding: none;
-    margin: none;
+    margin: 5px;
 }
 
 .menu a{
-    text-align: center;
-    position: static;
-    top: 18px;
-    left: 1566px;
     margin:auto;
-    display: inline-block;
-    padding: 0.0003em 0.5em;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 720;
+    font-size: 14px;
     text-transform: uppercase;
-    line-height: 30px;
     color: white;
+    
 }
 
 .menu a:hover {
@@ -89,5 +121,5 @@ body {
 /***************************/
 
 .row {
-    display: flex;
+    display: table-row;
 }
