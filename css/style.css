@@ -1,30 +1,31 @@
 body {
-    font-family: Halvetica, sans-serif;
+    font-family: PT Mono, Halvetica, sans-serif;
+    margin: 0;
 }
 
 
 /*************************/
 /*    Styling  Header    */
 /*************************/
-.top-header{
+.hero-image{
     background-image: url("images/lorenzo_headshot.jpg");
-
-    min-height: 380px;
-
-	background-position: center;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     position: relative;
 }
 
 /******************/   
 /* Styling Banner */
 /******************/
-.banner{
+.hero-text{
     position: absolute;
-    margin: 1px;
+    margin: 10px;
     width: auto;
+    padding-left: 10px;
+    color: white;
 }
   
 /***************************/
@@ -34,15 +35,31 @@ body {
     overflow: hidden;
 }
 
+.menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    padding-left: 1520px;
+}
+
+.menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
 .menu a{
-    text-align: right;
+    text-align: center;
+    position: static;
+    top: 18px;
+    left: 1566px;
     margin:auto;
     display: inline-block;
-    padding: 0em 1.5em;
+    padding: 0.0003em 0.5em;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
-    line-height: 60px;
+    line-height: 30px;
     color: white;
 }
 
@@ -57,7 +74,7 @@ body {
 /***************************/
 
 #content h1 {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 #content img {
@@ -65,4 +82,12 @@ body {
     bottom: 8px;
     left: 16px;    
     top: 100px;
+}
+
+/***************************/
+/* Styling Basic */
+/***************************/
+
+.row {
+    display: flex;
 }
