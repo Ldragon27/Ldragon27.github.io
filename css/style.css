@@ -19,6 +19,7 @@ ol, ul{
     padding: 0;
     list-style: none;
 }
+
      
 .container{   
     /* Set width of container to
@@ -69,7 +70,7 @@ ol, ul{
     width: auto;
     height: 100%;
     margin: none;
-    padding-top: 24px;
+    padding-top: 14px;
     padding-right: 30px;
 }
 
@@ -82,13 +83,13 @@ ol, ul{
 .menu li{
     display: inline-block;
     padding: none;
-    margin: 5px;
+    margin: 15px;
 }
 
 .menu a{
     margin:auto;
     text-decoration: none;
-    font-weight: 720;
+    font-weight: 710;
     font-size: 14px;
     text-transform: uppercase;
     color: white;
