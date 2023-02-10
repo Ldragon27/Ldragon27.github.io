@@ -5,6 +5,13 @@ body {
 
 header {
     overflow: hidden;
+    background-color:darkslategray;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: left;
+    color: white;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
 
 }
 
@@ -24,9 +31,9 @@ ol, ul {
     margin: none;
     font-family: Proxima Nova;
     font-weight: 650;
-    font-size: 17px;
+    font-size: 18px;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 28px;
 }
 
 /***************************/
@@ -57,7 +64,7 @@ ol, ul {
     margin:auto;
     text-decoration: none;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     color: white;
     
 }
@@ -67,3 +74,19 @@ ol, ul {
     color: white;
     text-decoration: none;
   }
+
+footer {
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+footer img{
+    position:static;
+    width: 80px;
+    height: 90px;
+    padding-top: 15px;
+    object-fit: scale-down;
+}

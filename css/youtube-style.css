@@ -2,3 +2,93 @@ body {
     font-family: PT Mono, Halvetica, sans-serif;
     margin: 0;
 }
+
+header {
+    overflow: hidden;
+    background-color:darkslategray;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: left;
+    color: white;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+}
+
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+ 
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+
+.name {
+    float: left;
+    width: auto;
+    margin: none;
+    font-family: Proxima Nova;
+    font-weight: 650;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 28px;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+.menu {
+    float: right;
+    width: auto;
+    height: 100%;
+    margin: none;
+    padding-top: 14px;
+    padding-right: 27px;
+}
+
+.menu ul {
+    text-align: center;
+    float: right;
+    margin: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: none;
+    margin: 15px;
+}
+
+.menu a {
+    margin:auto;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+
+footer {
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+footer img{
+    position:static;
+    width: 80px;
+    height: 90px;
+    padding-top: 15px;
+    object-fit: scale-down;
+}
+
+  
