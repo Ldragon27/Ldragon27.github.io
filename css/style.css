@@ -21,7 +21,7 @@ ol, ul {
 /*    Styling  Header    */
 /*************************/
 .hero-image {
-    background-image: url("images/lorenzo_headshot.jpg");
+    background-image: url("../images/lorenzo_headshot.jpg");
     background-color: #cccccc;
     height: 524px;
     background-position: center;
