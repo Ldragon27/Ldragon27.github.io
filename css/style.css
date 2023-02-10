@@ -97,14 +97,44 @@ body p {
     line-height: 100%;
 }
 
-body img {
-    position:static;
-    width: 200px;
-    height: 300px;
-    object-fit: scale-down;
-    
+main {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 33%;
+    padding-right: 33%;
 }
 
+main h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color:darkslategray;
+    padding-bottom: 10px;
+    word-spacing: 20px;
+}
+
+main p {
+    word-spacing: 4px;
+    color:dimgray;
+    font-size: 20px;
+    font-family: asap;
+}
+
+footer {
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+footer img{
+    position:static;
+    width: 80px;
+    height: 90px;
+    padding-top: 15px;
+    object-fit: scale-down;
+}
 /***************************/
 /* Styling Basic */
 /***************************/
