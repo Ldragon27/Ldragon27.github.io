@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mondragon.io
+Token: 1a4b021d7ae5267403ae42cb571d5a2822e96e388d892ceb9c7e407c27cb07fd
