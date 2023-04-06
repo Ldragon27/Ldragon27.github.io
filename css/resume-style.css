@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 body {
     font-family: PT Mono, Halvetica, sans-serif;
     margin: 0;
@@ -27,24 +29,146 @@ ol, ul {
 
 h1, h2, h3, h4, h5 {
     font-size: 30px;
+    border-bottom-style: solid;
+
 }
 
 .content {
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
+/***************************/
+/******* Education *********/
+/***************************/
 
 .education {
+    display: flex;
+}
+
+.college {
+    text-align: left;
+    width: 70%;
+
+}
+
+.college-dates {
+    text-align: right;
+    width: 30%;
+    padding-top: 34px;
+}
+
+.college-dates p{
+    padding-bottom: 16px;
+}
+
+/***************************/
+/******* Experience ********/
+/***************************/
+.experience {
+    display: flex;
+}
+
+.job1 {
+    text-align: left;
+    float:left;
+    width: 70%;
+}
+
+.job1-aside {
+    float: right;
+    width: 30%;
+}
+
+.job2 {
+    display: flex;
+    float:left;
     width: 75%;
 }
 
-.education-aside {
+.job2-aside {
+    float: right;
     width: 25%;
 }
 
+.job3 {
+    display: flex;
+    float:left;
+    width: 75%;
+}
 
+.job3-aside {
+    float: right;
+    width: 25%;
+}
+
+.job4 {
+    display: flex;
+    float:left;
+    width: 75%;
+}
+
+.job4-aside {
+    float: right;
+    width: 25%;
+}
+/*******************************/
+/*Technical Skills & Coursework*/
+/*******************************/
+.techskills{
+    float:left;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    float:left;
+    width: 75%;
+}
+
+.skills-aside{
+    float: right;
+    width: 25%;
+}
+
+/***************************/
+/******* Activies **********/
+/***************************/
+.activites-wrapper{
+    float:left;
+    width: 100%;
+}
+
+.activites {
+    display: flex;
+    float:left;
+    width: 75%;
+}
+
+.activites-aside{
+    float: right;
+    width: 25%;
+}
+
+/***************************/
+/**** Honors & Awards ******/
+/***************************/
+
+.honors-wrapper{
+    float:left;
+    width: 100%;
+}
+
+.honors {
+    float:left;
+    width: 75%;
+}
+
+.honors-aside{
+    float: right;
+    width: 25%;
+}
 
 
 .name {
@@ -106,6 +230,7 @@ footer {
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
+    float: left;
 }
 
 footer img{
