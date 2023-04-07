@@ -7,7 +7,7 @@ body {
 
 header {
     overflow: hidden;
-    background-color:darkslategray;
+    background-color:#465060;
     padding-bottom: 10px;
     padding-top: 5px;
     text-align: left;
@@ -19,25 +19,25 @@ header {
 
 p, ol, ul{
     margin-top: 0;
+    margin-bottom: 5px;
 }
  
  
 ol, ul {
-    padding: 0;
-    list-style: none;
+    list-style-type: square;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 30px;
-    border-bottom-style: solid;
+    color: #94b49c;
 
 }
 
 .content {
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 9%;
-    padding-bottom: 9%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+    padding-bottom: 5%;
 }
 /***************************/
 /******* Education *********/
@@ -47,108 +47,114 @@ h1, h2, h3, h4, h5 {
     display: flex;
 }
 
-.college {
+.college-left {
     text-align: left;
     width: 70%;
 
 }
 
-.college-dates {
+.college-right {
     text-align: right;
     width: 30%;
-    padding-top: 34px;
+    
 }
 
-.college-dates p{
-    padding-bottom: 16px;
+.college-right p{
+    padding-top: 24px;
+    padding-bottom: 17px;
 }
 
 /***************************/
 /******* Experience ********/
 /***************************/
 .experience {
+}
+
+.job-row-1 {
     display: flex;
 }
 
+.job-row-2 {
+    display: flex;
+    padding-bottom: 15px;
+}
+/**************************/
 .job1 {
+}
+
+.job1-left {
     text-align: left;
-    float:left;
     width: 70%;
 }
 
-.job1-aside {
-    float: right;
+.job1-right {
+    text-align: right;
     width: 30%;
 }
 
+.job1-bullet {
+}
+/**************************/
+
 .job2 {
-    display: flex;
-    float:left;
-    width: 75%;
 }
 
-.job2-aside {
-    float: right;
-    width: 25%;
+.job2-left {
+    text-align: left;
+    width: 70%;
 }
+.job2-right {
+    text-align: right;
+    width: 30%;
+}
+/**************************/
 
 .job3 {
-    display: flex;
-    float:left;
-    width: 75%;
 }
 
-.job3-aside {
-    float: right;
-    width: 25%;
+.job3-left {
+    text-align: left;
+    width: 70%;
 }
-
+.job3-right {
+    text-align: right;
+    width: 30%;
+}
+/**************************/
 .job4 {
-    display: flex;
-    float:left;
-    width: 75%;
 }
 
-.job4-aside {
-    float: right;
-    width: 25%;
+.job4-left {
+    text-align: left;
+    width: 70%;
+}
+.job4-right {
+    text-align: right;
+    width: 30%;
 }
 /*******************************/
 /*Technical Skills & Coursework*/
 /*******************************/
 .techskills{
-    float:left;
-    width: 100%;
-}
-
-.skills {
     display: flex;
-    float:left;
-    width: 75%;
 }
 
-.skills-aside{
+.skills-left {
+    text-align: left;
+    width: 35%;
+    float: left;
+}
+
+.skills-center {
+    text-align: left;
+    width: 30%;
+    float: left;
+}
+
+.skills-right{
+    text-align: left;
     float: right;
-    width: 25%;
-}
-
-/***************************/
-/******* Activies **********/
-/***************************/
-.activites-wrapper{
-    float:left;
-    width: 100%;
-}
-
-.activites {
-    display: flex;
-    float:left;
-    width: 75%;
-}
-
-.activites-aside{
-    float: right;
-    width: 25%;
+    width: 35%;
 }
 
 /***************************/
@@ -156,20 +162,33 @@ h1, h2, h3, h4, h5 {
 /***************************/
 
 .honors-wrapper{
-    float:left;
-    width: 100%;
+    display: flex;
 }
 
 .honors {
-    float:left;
-    width: 75%;
+    text-align: left;
+    width: 100%;
 }
 
-.honors-aside{
-    float: right;
-    width: 25%;
+
+/***************************/
+/******* Activies **********/
+/***************************/
+.activites-wrapper{
+    display: flex;
 }
 
+.activites-left {
+    text-align: left;
+    width: 70%;
+}
+
+.activites-right{
+    text-align: right;
+    width: 30%;
+}
+
+/**************************/
 
 .name {
     float: left;
@@ -222,10 +241,8 @@ h1, h2, h3, h4, h5 {
   }
 
 
-
-
 footer {
-    background-color:darkslategray;
+    background-color:#465060;
     color: white;
     text-align: center;
     padding-bottom: 25px;
