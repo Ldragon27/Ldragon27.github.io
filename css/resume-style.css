@@ -30,7 +30,7 @@ ol, ul {
 h1, h2, h3, h4, h5 {
     font-size: 30px;
     color: #94b49c;
-
+    margin-bottom: 1.5%;
 }
 
 .content {
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5 {
 
 .skills-left {
     text-align: left;
-    width: 35%;
+    width: 39%;
     float: left;
 }
 
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5 {
 .skills-right{
     text-align: left;
     float: right;
-    width: 35%;
+    width: 32%;
 }
 
 /***************************/
@@ -165,9 +165,14 @@ h1, h2, h3, h4, h5 {
     display: flex;
 }
 
-.honors {
+.honors-left{
     text-align: left;
-    width: 100%;
+    width: 59%;
+}
+
+.honors-right{
+    text-align: left;
+    width: 41%;
 }
 
 
