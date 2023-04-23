@@ -5,7 +5,7 @@ body {
 
 header {
     overflow: hidden;
-    background-color:darkslategray;
+    background-color:#465060;
     padding-bottom: 10px;
     padding-top: 5px;
     text-align: left;
@@ -29,13 +29,19 @@ ol, ul {
     float: left;
     width: auto;
     margin: none;
-    font-family: Proxima Nova;
-    font-weight: 650;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-top: 28px;
+    
+    padding-left: 25px;
+    padding-top: 30px;
 }
 
+.name a {
+    text-decoration: none;
+    font-family: Proxima Nova;
+    font-weight: 650;
+    font-size: 19px;
+    color: white;
+}
+  
 /***************************/
 /* Styling Navigation Menu */
 /***************************/
@@ -56,9 +62,22 @@ ol, ul {
 
 .menu li {
     display: inline-block;
-    padding: none;
-    margin: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
+
+.menu li:hover {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    box-shadow: 0 0 0 20px black;
+    width: auto;
+  }
 
 .menu a {
     margin:auto;
@@ -66,17 +85,11 @@ ol, ul {
     font-weight: 700;
     font-size: 14px;
     color: white;
-    
+    display: block;
 }
 
-.menu a:hover {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-  }
-
 footer {
-    background-color:darkslategray;
+    background-color:#465060;
     color: white;
     text-align: center;
     padding-bottom: 25px;

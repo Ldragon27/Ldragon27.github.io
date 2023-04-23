@@ -30,7 +30,7 @@ ol, ul {
 h1, h2, h3, h4, h5 {
     font-size: 30px;
     color: #94b49c;
-    margin-bottom: 1.5%;
+
 }
 
 .content {
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5 {
 
 .skills-left {
     text-align: left;
-    width: 39%;
+    width: 35%;
     float: left;
 }
 
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5 {
 .skills-right{
     text-align: left;
     float: right;
-    width: 32%;
+    width: 35%;
 }
 
 /***************************/
@@ -165,14 +165,9 @@ h1, h2, h3, h4, h5 {
     display: flex;
 }
 
-.honors-left{
+.honors {
     text-align: left;
-    width: 59%;
-}
-
-.honors-right{
-    text-align: left;
-    width: 41%;
+    width: 100%;
 }
 
 
@@ -199,13 +194,19 @@ h1, h2, h3, h4, h5 {
     float: left;
     width: auto;
     margin: none;
-    font-family: Proxima Nova;
-    font-weight: 650;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-top: 28px;
+    
+    padding-left: 25px;
+    padding-top: 30px;
 }
 
+.name a {
+    text-decoration: none;
+    font-family: Proxima Nova;
+    font-weight: 650;
+    font-size: 19px;
+    color: white;
+}
+  
 /***************************/
 /* Styling Navigation Menu */
 /***************************/
@@ -226,9 +227,22 @@ h1, h2, h3, h4, h5 {
 
 .menu li {
     display: inline-block;
-    padding: none;
-    margin: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
+
+.menu li:hover {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    box-shadow: 0 0 0 20px black;
+    width: auto;
+  }
 
 .menu a {
     margin:auto;
@@ -236,15 +250,8 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     font-size: 14px;
     color: white;
-    
+    display: block;
 }
-
-.menu a:hover {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-  }
-
 
 footer {
     background-color:#465060;
