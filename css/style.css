@@ -22,8 +22,7 @@ p, ol, ul{
  
  
 ol, ul {
-    padding: 0;
-    list-style: none;
+    list-style-type: square;
 }
 
 /*************************/
@@ -48,7 +47,6 @@ ol, ul {
     float: left;
     width: auto;
     margin: none;
-    
     padding-left: 25px;
     padding-top: 30px;
 }
@@ -114,7 +112,7 @@ body p {
 }
 
 main {
-    text-align: center;
+    text-align: left;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 33%;
@@ -149,11 +147,4 @@ footer img{
     height: 90px;
     padding-top: 15px;
     object-fit: scale-down;
-}
-/***************************/
-/* Styling Basic */
-/***************************/
-
-.row {
-    display: table-row;
 }

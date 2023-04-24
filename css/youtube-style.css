@@ -25,6 +25,11 @@ ol, ul {
     list-style: none;
 }
 
+h1, h2, h3 {
+    font-size: 30px;
+    color: #94b49c;
+}
+
 .name {
     float: left;
     width: auto;
@@ -86,6 +91,24 @@ ol, ul {
     font-size: 14px;
     color: white;
     display: block;
+}
+
+.drone-video {
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-bottom: 50px;   
+}
+
+.itx-video{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 50px;   
+}
+
+.sev-video{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 50px;   
 }
 
 footer {

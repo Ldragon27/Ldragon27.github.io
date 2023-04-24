@@ -141,20 +141,20 @@ h1, h2, h3, h4, h5 {
 
 .skills-left {
     text-align: left;
-    width: 35%;
+    width: 30%;
     float: left;
 }
 
 .skills-center {
     text-align: left;
-    width: 30%;
+    width: 20%;
     float: left;
 }
 
 .skills-right{
     text-align: left;
     float: right;
-    width: 35%;
+    width: 30%;
 }
 
 /***************************/
@@ -194,7 +194,6 @@ h1, h2, h3, h4, h5 {
     float: left;
     width: auto;
     margin: none;
-    
     padding-left: 25px;
     padding-top: 30px;
 }
@@ -259,7 +258,6 @@ footer {
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
-    float: left;
 }
 
 footer img{
