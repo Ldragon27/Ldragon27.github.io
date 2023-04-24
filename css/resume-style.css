@@ -253,17 +253,30 @@ h1, h2, h3, h4, h5 {
 }
 
 footer {
+    overflow: hidden;
     background-color:#465060;
+    text-align: left;
     color: white;
-    text-align: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
 }
 
 footer img{
-    position:static;
-    width: 80px;
-    height: 90px;
-    padding-top: 15px;
+    float: left;
+    margin: none;
+    width: 200px;
+    height: 180px;
+    border-color: black;
     object-fit: scale-down;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+footer p {
+    text-decoration: none;
+    font-family: Proxima Nova;
+    font-weight: 550;
+    font-size: 17px;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
 }
