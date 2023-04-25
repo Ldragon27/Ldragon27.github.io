@@ -101,22 +101,58 @@ h1, h2, h3 {
     padding-bottom: 5%;
 }
 
-.drone-video {
+.about {
     margin-top: 60px;
     margin-left: 30px;
     padding-bottom: 100px;   
 }
 
-.itx-video{
+.item-1 {
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-bottom: 100px; 
+    display: flex;
+}
+
+.drone-video {
+      width: 60%;
+}
+
+.drone-text {
+    width:40%;
+    padding-top: 8%;
+}
+
+.item-2 {
+    display: flex;
     margin-top: 10px;
     margin-left: 30px;
     padding-bottom: 100px;  
 }
 
-.sev-video{
+.itx-video{
+    width: 60%;
+}
+
+.itx-text {
+    width:40%;
+    padding-top: 8%;
+}
+
+.item-3 {
+    display: flex;
     margin-top: 10px;
     margin-left: 30px;
-    padding-bottom: 50px;   
+    padding-bottom: 50px; 
+}
+
+.sev-video{
+    width: 60%;
+}
+
+.sev-text {
+    width:40%;
+    padding-top: 8%;
 }
 
 footer {
