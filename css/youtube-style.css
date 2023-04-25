@@ -94,16 +94,23 @@ h1, h2, h3 {
     display: block;
 }
 
+.content {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
 .drone-video {
     margin-top: 60px;
     margin-left: 30px;
-    padding-bottom: 50px;   
+    padding-bottom: 100px;   
 }
 
 .itx-video{
     margin-top: 10px;
     margin-left: 30px;
-    padding-bottom: 50px;   
+    padding-bottom: 100px;  
 }
 
 .sev-video{
