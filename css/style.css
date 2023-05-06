@@ -1,11 +1,12 @@
 body {
     font-family: PT Mono, Halvetica, sans-serif;
     margin: 0;
+    background-color: #b4c6ea;
 }
 
 header {
     overflow: hidden;
-    background-color:#465060;
+    background-color:#b4c6ea;
     padding-bottom: 10px;
     padding-top: 5px;
     text-align: left;
@@ -18,12 +19,14 @@ header {
 p, ol, ul{
     margin-top: 0;
     margin-bottom: 5px;
+    font-size: large;
 }
  
  
 ol, ul {
     list-style-type: square;
 }
+
 
 /*************************/
 /*    Styling  Header    */
@@ -51,7 +54,7 @@ ol, ul {
     font-family: Proxima Nova;
     font-weight: 650;
     font-size: 19px;
-    color: white;
+    color: black;
 }
   
 /***************************/
@@ -83,20 +86,20 @@ ol, ul {
 }
 
 .menu li:hover {
-    color: white;
     text-decoration: none;
     display: inline-block;
-    background-color: black;
-    box-shadow: 0 0 0 20px black;
+    background-color: #ceba85;
+    box-shadow: 0 0 0 7px black;
     width: auto;
   }
+
 
 .menu a {
     margin:auto;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
-    color: white;
+    color: black;
     display: block;
 }
 /***************************/
@@ -110,47 +113,37 @@ main {
     text-align: left;
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 33%;
-    padding-right: 33%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 main h1 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
     padding-bottom: 10px;
     word-spacing: 20px;
+    color: #30446b;
 }
 
 main p {
     word-spacing: 4px;
-    font-size: 20px;
+    font-size: 22px;
     font-family: asap;
 }
 
 footer {
     overflow: hidden;
-    background-color:#465060;
+    background-color: #b4c6ea;
     text-align: left;
-    color: white;
 }
 
-footer img{
-    float: left;
-    margin: none;
-    width: 200px;
-    height: 180px;
-    border-color: black;
-    object-fit: scale-down;
-    padding-right: 100px;
-    padding-left: 100px;
-}
 
 footer p {
     text-decoration: none;
     font-family: Proxima Nova;
     font-weight: 550;
     font-size: 17px;
-    color: white;
+    color: black;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
