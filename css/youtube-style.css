@@ -108,8 +108,8 @@ h2, h3, h4{
 .item-1 {
     margin-top: 60px;
     margin-left: 30px;
-    padding-bottom: 100px; 
-    display: flex;
+    padding-bottom: 100px;
+    display:flexbox; 
 }
 
 .drone-video {
@@ -119,10 +119,11 @@ h2, h3, h4{
 .drone-text {
     width:40%;
     padding-top: 8%;
+
 }
 
 .item-2 {
-    display: flex;
+    display:flexbox; 
     margin-top: 10px;
     margin-left: 30px;
     padding-bottom: 100px;  
@@ -138,7 +139,7 @@ h2, h3, h4{
 }
 
 .item-3 {
-    display: flex;
+    display:flexbox;
     margin-top: 10px;
     margin-left: 30px;
     padding-bottom: 50px; 
