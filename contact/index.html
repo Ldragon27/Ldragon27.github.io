@@ -3,33 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact | Lorenzo Mondragon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/contact-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
+    <div class="topnav" id="myTopnav">
         <div class="name">
             <a href="../index.html">Lorenzo Mondragon</a>
         </div>
-
-        <nav>        
-            <div class="menu">
-                <ul>
-                    <li><a href="../resume/index.html">Resume</a></li>
-                    <li><a href="../projects/index.html">Coding Projects</a></li>
-                    <li><a href="../bookshelf/index.html">Bookshelf</a></li>
-                    <li><a href="../youtube/index.html">YouTube</a></li>
-                    <li><a href="../contact/index.html">Contact</a></li>
-                </ul>         
-            </div>
-        </nav> 
-    </header>
+        <a href="../resume/index.html">Resume</a>
+        <a href="../projects/index.html">Coding Projects</a>
+        <a href="../bookshelf/index.html">Bookshelf</a>
+        <a href="../youtube/index.html">YouTube</a>
+        <a href="../contact/index.html" class="active">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div class="content">
         <main>
-           
+           <h1>Contact</h1>
+           <p><strong>Business Inquiries</strong></p>
+           <p>lorenzo.mondragon@icloud.com</p>
+           <p>lorenzo.mondragon@colostate.edu</p>
+           <p><strong>Add me on Social Media</strong></p>
+           <p><a href="https://www.linkedin.com/in/lorenzo-mondragon/">LinkedIn</a></p>
+           <p><a href="https://www.youtube.com/@hey_lo">YouTube</a></p>
         </main>
     </div>
     <footer>
         <p>2023 | Mondragon</p>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += "responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+    </script>
 </body>
 </html>

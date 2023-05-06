@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Lorenzo Mondragon</title>
+    <meta name="description" content="Lorenzo Mondragon is a Web Developer and Student based in Fort Collins, CO">
+    <meta name="keywords" content="Developer, Software, Colorado">
+    <meta name="author" content="Lorenzo Mondragon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div class="name">
-            <a href="#">Lorenzo Mondragon</a>
-        </div>
-        <nav>        
-            <div class="menu">
-                <ul>
-                    <li><a href="resume/index.html">Resume</a></li>
-                    <li><a href="projects/index.html">Coding Projects</a></li>
-                    <li><a href="bookshelf/index.html">Bookshelf</a></li>
-                    <li><a href="youtube/index.html">YouTube</a></li>
-                    <li><a href="contact/index.html">Contact</a></li>
-                </ul>         
-            </div>
-        </nav>
-    </header>
+<div class="topnav" id="myTopnav">
+    <div class="name">
+        <a href="index.html" class="active">Lorenzo Mondragon</a>
+    </div>
+    <a href="resume/index.html">Resume</a>
+    <a href="projects/index.html">Coding Projects</a>
+    <a href="bookshelf/index.html">Bookshelf</a>
+    <a href="youtube/index.html">YouTube</a>
+    <a href="contact/index.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
     <div class="content">
-        <div class="hero-image"></div>
+        <div class="hero-image">
+            <img src="images/lorenzo-mondragon-headshot.jpg" alt="Headshot of Lorenzo wearing a NASA polo">
+        </div>
         <main>
             <h1>About Me</h1>
             <p>As a skilled backend developer with experience in C#, Entity Framework, Microsoft SQL Server, and building RESTful API’s, I'm passionate about leveraging technology to solve complex problems. My knowledge in these technologies has enabled me to develop high-quality applications that have served hundreds of users.
@@ -35,5 +39,15 @@
     <footer>
         <p>2023 | Mondragon</p>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += "responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+    </script>
 </body>    
 </html>
