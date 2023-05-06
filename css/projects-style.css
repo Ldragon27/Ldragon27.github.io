@@ -19,8 +19,7 @@ ol, ul {
 
 h1, h2, h3, h4 {
   font-size: 30px;
-  color: #254E58;
-  padding-top: 50px;
+  color: #254E58;  
 }
 
 .topnav {
@@ -98,7 +97,7 @@ h1, h2, h3, h4 {
 }
 
 .intro {
-  font-size: 20px;
+  font-size: 21px;
   text-align: left;
   padding-bottom: 10x;
 }
@@ -110,21 +109,30 @@ h1, h2, h3, h4 {
 .p1 {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .p2 {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .p3 {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .p4 {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 
