@@ -1,19 +1,9 @@
+@charset "utf-8";
+
 body {
     font-family: PT Mono, Halvetica, sans-serif;
     margin: 0;
     background-color: #b4c6ea;
-}
-
-header {
-    overflow: hidden;
-    background-color:#b4c6ea;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    text-align: left;
-    color: white;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-
 }
 
 p, ol, ul{
@@ -31,77 +21,77 @@ ol, ul {
 /*************************/
 /*    Styling  Header    */
 /*************************/
-
-
 .hero-image img {
     max-width: 100%;
     height: auto;
 }
 
-/******************/   
-/* Styling Banner */
-/******************/
-.name {
-    float: left;
-    width: auto;
-    margin: none;
-    padding-left: 25px;
-    padding-top: 30px;
+.topnav {
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: flex;
+    margin-left: 17%;
 }
 
-.name a {
+.topnav a {
+    display: block;
+    float:left;
+    text-align: center;
+    padding: 23px 16px;
     text-decoration: none;
     font-family: Proxima Nova;
     font-weight: 650;
     font-size: 19px;
     color: black;
-}
-  
-/***************************/
-/* Styling Navigation Menu */
-/***************************/
-.menu {
-    float: right;
-    width: auto;
-    height: 100%;
-    margin: none;
-    padding-top: 14px;
-    padding-right: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 17px;
 }
 
-.menu ul {
-    text-align: center;
-    float: right;
-    margin: none;
-}
-
-.menu li {
-    display: inline-block;
-    margin-left: 14px;
-    margin-right: 14px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.menu li:hover {
-    text-decoration: none;
-    display: inline-block;
+.topnav a:hover {
     background-color: #ceba85;
-    box-shadow: 0 0 0 7px black;
-    width: auto;
+    box-shadow: 0 0px 0 7px black;
+    color: black;
   }
 
-
-.menu a {
-    margin:auto;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
+.topnav a.active {
+    background-color: #ceba85;
+    box-shadow: 0 0 0 5px black;
     color: black;
-    display: block;
+  }
+
+.topnav .icon {
+    display: none;
 }
+
+.name {
+    padding-left: 25px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
 /***************************/
 /* Styling Body */
 /***************************/
