@@ -26,6 +26,13 @@ ol, ul {
     list-style: none;
 }
 
+h1 {
+    font-size: 30px;
+
+}
+
+
+
 .name {
     float: left;
     width: auto;
@@ -85,6 +92,18 @@ ol, ul {
     font-size: 14px;
     color: black;
     display: block;
+}
+
+.content {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
 
 footer {
