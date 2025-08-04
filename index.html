@@ -2,52 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lorenzo Mondragon</title>
-    <meta name="description" content="Lorenzo Mondragon is a Web Developer and Student based in Fort Collins, CO">
-    <meta name="keywords" content="Developer, Software, Colorado">
-    <meta name="author" content="Lorenzo Mondragon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lorenzo | Data Engineer & Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-<div class="topnav" id="myTopnav">
-    <div class="name">
-        <a href="index.html" class="active">Lorenzo Mondragon</a>
-    </div>
-    <a href="resume/index.html">Resume</a>
-    <a href="projects/index.html">Coding Projects</a>
-    <a href="bookshelf/index.html">Bookshelf</a>
-    <a href="youtube/index.html">YouTube</a>
-    <a href="contact/index.html">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
-    <div class="content">
-        <div class="hero-image">
-            <img src="images/lorenzo-mondragon-headshot.jpg" alt="Headshot of Lorenzo wearing a NASA polo">
-        </div>
-        <main>
-            <h1>About Me</h1>
-            <p>As a skilled backend developer with experience in C#, Entity Framework, Microsoft SQL Server, and building RESTful API’s, I'm passionate about leveraging technology to solve complex problems. My knowledge in these technologies has enabled me to develop high-quality applications that have served hundreds of users.
-                I'm committed to staying up-to-date with the latest industry trends and technologies, and I'm always eager to learn and grow as a software engineer. Whether it's exploring .NET or becoming involved in projects such as CSU's VR Challenge, I'm constantly seeking out opportunities to expand my skills and knowledge.
-                If you're looking for a dedicated and talented developer to join your team, let's connect and discuss how I can contribute to your organization's success.
-                </p>
-        </main>
-    </div>
-    <footer>
-        <p>2023 | Mondragon</p>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">LORENZO MONDRAGON</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1 class="hero-title">Building intelligent systems from complex data.</h1>
+            <p class="hero-subtitle">I'm a Data Engineer with a passion for software engineering, crafting robust data pipelines and exploring the frontiers of machine learning. I turn raw data into meaningful, actionable insights.</p>
+            <div class="hero-cta">
+                <a href="projects.html" class="btn btn-primary">View My Work</a>
+                <a href="resume.html" class="btn btn-secondary">View My Resume</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Ldragon27" target="_blank" title="GitHub"><i data-feather="github"></i></a>
+                <a href="https://www.linkedin.com/in/lorenzo-mondragon/" target="_blank" title="LinkedIn"><i data-feather="linkedin"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Designed with intention. &copy; 2025 Lorenzo</p>
     </footer>
+
     <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-              x.className += "responsive";
-            } else {
-              x.className = "topnav";
-            }
-          }
+      feather.replace()
     </script>
-</body>    
+</body>
 </html>
