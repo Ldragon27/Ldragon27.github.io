@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Add the reCAPTCHA v3 API script. -->
-    <!-- IMPORTANT: Replace "YOUR_RECAPTCHA_V3_SITE_KEY" with your actual site key. -->
-    <script src="https://www.google.com/recaptcha/api.js?render=YOUR_RECAPTCHA_V3_SITE_KEY"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdOaporAAAAAKLevG8MtOFvp6YO4TUDkuuvAIcz"></script>
 </head>
 <body>
     <header>
@@ -45,18 +44,16 @@
     <script>
         const revealButton = document.getElementById('reveal-button');
         const emailContainer = document.getElementById('email-reveal');
-        // IMPORTANT: Replace "YOUR_RECAPTCHA_V3_SITE_KEY" with your actual site key.
-        const recaptchaSiteKey = 'YOUR_RECAPTCHA_V3_SITE_KEY';
+        const recaptchaSiteKey = '6LdOaporAAAAAKLevG8MtOFvp6YO4TUDkuuvAIcz';
 
         revealButton.addEventListener('click', () => {
             grecaptcha.ready(function() {
                 grecaptcha.execute(recaptchaSiteKey, {action: 'contact'}).then(function(token) {
-                    // In a full application, you would send this token to your backend for verification.
                     // For a static site, generating the token is sufficient proof that the user passed the initial check.
                     
                     // A simple way to hide the email from basic scrapers.
-                    const user = 'lorenzo.data';
-                    const domain = 'example.com'; // Change this to your actual email domain
+                    const user = 'lorenzo.mondragon';
+                    const domain = 'icloud.com'; // Change this to your actual email domain
                     const email = `${user}@${domain}`;
 
                     // Create a clickable mailto link and display it.
