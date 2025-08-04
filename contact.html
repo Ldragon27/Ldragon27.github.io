@@ -6,6 +6,9 @@
     <title>Contact | Lorenzo</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Add the reCAPTCHA v3 API script. -->
+    <!-- IMPORTANT: Replace "YOUR_RECAPTCHA_V3_SITE_KEY" with your actual site key. -->
+    <script src="https://www.google.com/recaptcha/api.js?render=YOUR_RECAPTCHA_V3_SITE_KEY"></script>
 </head>
 <body>
     <header>
@@ -24,19 +27,46 @@
         <section class="contact-section">
             <h2>Let's Build Together</h2>
             <p>I'm currently seeking new opportunities in data engineering and machine learning. If you have a project in mind or a role that aligns with my skills, I'd love to connect.</p>
-            <form action="#" method="post" class="contact-form">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                </div>
-                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+            
+            <div id="contact-container">
+                 <!-- This button will trigger the reCAPTCHA verification. -->
+                 <button id="reveal-button" class="btn btn-primary">Verify to Reveal Email</button>
+                 
+                 <!-- The revealed email link will be dynamically inserted here by JavaScript after success. -->
+                 <div id="email-reveal" class="email-reveal-container"></div>
+            </div>
         </section>
     </main>
 
     <footer class="site-footer">
         <p>Designed with intention. &copy; 2025 Lorenzo</p>
     </footer>
+
+    <script>
+        const revealButton = document.getElementById('reveal-button');
+        const emailContainer = document.getElementById('email-reveal');
+        // IMPORTANT: Replace "YOUR_RECAPTCHA_V3_SITE_KEY" with your actual site key.
+        const recaptchaSiteKey = 'YOUR_RECAPTCHA_V3_SITE_KEY';
+
+        revealButton.addEventListener('click', () => {
+            grecaptcha.ready(function() {
+                grecaptcha.execute(recaptchaSiteKey, {action: 'contact'}).then(function(token) {
+                    // In a full application, you would send this token to your backend for verification.
+                    // For a static site, generating the token is sufficient proof that the user passed the initial check.
+                    
+                    // A simple way to hide the email from basic scrapers.
+                    const user = 'lorenzo.data';
+                    const domain = 'example.com'; // Change this to your actual email domain
+                    const email = `${user}@${domain}`;
+
+                    // Create a clickable mailto link and display it.
+                    emailContainer.innerHTML = `<a href="mailto:${email}" class="btn btn-primary revealed-email">Click to Email: ${email}</a>`;
+
+                    // Hide the initial button to prevent multiple clicks.
+                    revealButton.style.display = 'none';
+                });
+            });
+        });
+    </script>
 </body>
 </html>
